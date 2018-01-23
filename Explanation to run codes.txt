@@ -1,0 +1,9 @@
+To scrape tweets:
+1. run main code
+2. run scrape_tweets_DATABASE (tweets are saved in a postgreSQL database)
+
+3. Data from postgreSQL database should be converted to a CSV file, called postgres_output. This file should be within the folder 'Location code'.
+
+To identify locations and neighbourhoods:
+4. run location code > location_searcher
+5. Results.csv is the final output.
